@@ -8,6 +8,7 @@ import {Education} from "./components/Education";
 import {Courses} from "./components/Courses";
 import {Certificates} from "./components/Certificates";
 import {Employment} from "./components/Employment";
+import {Languages} from "./components/Languages";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <Courses />
             <Employment />
             <Certificates/>
+            <Languages/>
             <Projects/>
             <Footer/>
         </div>
